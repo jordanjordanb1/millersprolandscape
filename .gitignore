@@ -1,0 +1,8 @@
+_notes/
+cgi-bin/
+error_log
+.DS_Store
+.MILLERSPROLANDSCAPE
+._sitemap.xml
+.ftpquota
+.htaccess

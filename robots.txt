@@ -1,0 +1,9 @@
+sitemap:http://millersprolandscape.com/sitemap.xml
+
+Disallow: /js/*
+Disallow: /includes/*
+Disallow: /img/*
+Disallow: /fonts/*
+Disallow: /css/*
+Disallow: /cgi-bin/*
+Disallow: /_notes/*
