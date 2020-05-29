@@ -4,7 +4,7 @@ $page_name = 'Projects';
 require('./includes/head.php');
 
 function getImages($directoryToLoad) {
-    return glob($directoryToLoad . "*.{[jJ][pP][gG],[pP][nN][gG],[gG][iI][fF]}", GLOB_BRACE);
+    return glob($directoryToLoad . "*.*");
 }
 ?>
 
@@ -31,7 +31,7 @@ function getImages($directoryToLoad) {
     <div class="row g-mt-30">
       <div class="col-12 d-flex justify-content-center flex-wrap image-container">
         <?php
-        $directory = 'img/masonry/';
+        $directory = 'static/assets/img/masonry/';
 
         $images = getImages($directory);
 
@@ -58,7 +58,7 @@ function getImages($directoryToLoad) {
     <div class="row g-mt-30">
       <div class="col-12 d-flex justify-content-center flex-wrap image-container">
         <?php
-        $directory = 'img/maintenance/';
+        $directory = 'static/assets/img/maintenance/';
 
         $images = getImages($directory);
 
@@ -85,7 +85,7 @@ function getImages($directoryToLoad) {
     <div class="row g-mt-30">
       <div class="col-12 d-flex justify-content-center flex-wrap image-container">
         <?php
-        $directory = 'img/irrigation/';
+        $directory = 'static/assets/img/irrigation/';
 
         $images = getImages($directory);
 
@@ -112,7 +112,7 @@ function getImages($directoryToLoad) {
     <div class="row g-mt-30">
       <div class="col-12 d-flex justify-content-center flex-wrap image-container">
         <?php
-        $directory = 'img/lawn_care/';
+        $directory = 'static/assets/img/lawn_care/';
 
         $images = getImages($directory);
 
@@ -139,7 +139,7 @@ function getImages($directoryToLoad) {
     <div class="row g-mt-30">
       <div class="col-12 d-flex justify-content-center flex-wrap image-container">
         <?php
-        $directory = 'img/tree_work/';
+        $directory = 'static/assets/img/tree_work/';
 
         $images = getImages($directory);
 

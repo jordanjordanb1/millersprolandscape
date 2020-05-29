@@ -6,3 +6,8 @@ error_log
 ._sitemap.xml
 .ftpquota
 .htaccess
+composer.phar
+composer.phar
+vendor/
+.env
+.BridgeSort
