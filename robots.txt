@@ -7,3 +7,7 @@ Disallow: /fonts/*
 Disallow: /css/*
 Disallow: /cgi-bin/*
 Disallow: /_notes/*
+Disallow: /vendor/*
+Disallow: /static/*
+Disallow: /.git
+Disallow: /.gitignore

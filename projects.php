@@ -1,11 +1,11 @@
 <?php
-$page = 'projects';
-$page_name = 'Projects';
-require('./includes/head.php');
+  $page = 'projects';
+  $page_name = 'Projects';
+  include_once('./includes/head.php');
 
-function getImages($directoryToLoad) {
+  function getImages($directoryToLoad) {
     return glob($directoryToLoad . "*.*");
-}
+  }
 ?>
 
 <style>
@@ -31,23 +31,24 @@ function getImages($directoryToLoad) {
     <div class="row g-mt-30">
       <div class="col-12 d-flex justify-content-center flex-wrap image-container">
         <?php
-        $directory = 'static/assets/img/masonry/';
+          $directory = 'static/assets/img/masonry/';
+          $name = 'Masonry';
 
-        $images = getImages($directory);
+          $images = getImages($directory);
 
-        if (!is_array($images)) {
-          echo "No images";
-        } else {
-          for ($i = 1; $i < count($images); $i++) {
-            $num = $images[$i];
+          if (!is_array($images)) {
+            echo "No images";
+          } else {
+            for ($i = 1; $i < count($images); $i++) {
+              $num = $images[$i];
 
-            echo '
-            <a href="' . $num . '" data-lightbox="gallery" id="images" class="d-flex justify-content-center align-items-center">
-              <img loading="lazy" src="' . $num . '" class="img-fluid" alt="' . $num . '">
-            </a>
-            ';
+              echo '
+              <a href="' . $num . '" data-lightbox="gallery" id="images" class="d-flex justify-content-center align-items-center" onclick="window.ga(\'send\', \'event\', \''.$name.' - Image - Projects\', \'click\')">
+                <img loading="lazy" src="' . $num . '" class="img-fluid" alt="' . $num . '">
+              </a>
+              ';
+            }
           }
-        }
         ?>
       </div>
     </div>
@@ -58,23 +59,24 @@ function getImages($directoryToLoad) {
     <div class="row g-mt-30">
       <div class="col-12 d-flex justify-content-center flex-wrap image-container">
         <?php
-        $directory = 'static/assets/img/maintenance/';
+          $directory = 'static/assets/img/maintenance/';
+          $name = 'Maintenance';
 
-        $images = getImages($directory);
+          $images = getImages($directory);
 
-        if (!is_array($images)) {
-          echo "No images";
-        } else {
-          for ($i = 1; $i < count($images); $i++) {
-            $num = $images[$i];
+          if (!is_array($images)) {
+            echo "No images";
+          } else {
+            for ($i = 1; $i < count($images); $i++) {
+              $num = $images[$i];
 
-            echo '
-            <a href="' . $num . '" data-lightbox="gallery" id="images" class="d-flex justify-content-center align-items-center">
-              <img loading="lazy" src="' . $num . '" class="img-fluid" alt="' . $num . '">
-            </a>
-            ';
+              echo '
+              <a href="' . $num . '" data-lightbox="gallery" id="images" class="d-flex justify-content-center align-items-center" onclick="window.ga(\'send\', \'event\', \''.$name.' - Image - Projects\', \'click\')">
+                <img loading="lazy" src="' . $num . '" class="img-fluid" alt="' . $num . '">
+              </a>
+              ';
+            }
           }
-        }
         ?>
       </div>
     </div>
@@ -85,23 +87,24 @@ function getImages($directoryToLoad) {
     <div class="row g-mt-30">
       <div class="col-12 d-flex justify-content-center flex-wrap image-container">
         <?php
-        $directory = 'static/assets/img/irrigation/';
+          $directory = 'static/assets/img/irrigation/';
+          $name = 'Irrigation';
 
-        $images = getImages($directory);
+          $images = getImages($directory);
 
-        if (!is_array($images)) {
-          echo "No images";
-        } else {
-          for ($i = 1; $i < count($images); $i++) {
-            $num = $images[$i];
+          if (!is_array($images)) {
+            echo "No images";
+          } else {
+            for ($i = 1; $i < count($images); $i++) {
+              $num = $images[$i];
 
-            echo '
-            <a href="' . $num . '" data-lightbox="gallery" id="images" class="d-flex justify-content-center align-items-center">
-              <img loading="lazy" src="' . $num . '" class="img-fluid" alt="' . $num . '">
-            </a>
-            ';
+              echo '
+              <a href="' . $num . '" data-lightbox="gallery" id="images" class="d-flex justify-content-center align-items-center" onclick="window.ga(\'send\', \'event\', \''.$name.' - Image - Projects\', \'click\')">
+                <img loading="lazy" src="' . $num . '" class="img-fluid" alt="' . $num . '">
+              </a>
+              ';
+            }
           }
-        }
         ?>
       </div>
     </div>
@@ -112,23 +115,24 @@ function getImages($directoryToLoad) {
     <div class="row g-mt-30">
       <div class="col-12 d-flex justify-content-center flex-wrap image-container">
         <?php
-        $directory = 'static/assets/img/lawn_care/';
+          $directory = 'static/assets/img/lawn_care/';
+          $name = 'Lawn Care';
 
-        $images = getImages($directory);
+          $images = getImages($directory);
 
-        if (!is_array($images)) {
-          echo "No images";
-        } else {
-          for ($i = 1; $i < count($images); $i++) {
-            $num = $images[$i];
+          if (!is_array($images)) {
+            echo "No images";
+          } else {
+            for ($i = 1; $i < count($images); $i++) {
+              $num = $images[$i];
 
-            echo '
-            <a href="' . $num . '" data-lightbox="gallery" id="images" class="d-flex justify-content-center align-items-center">
-              <img loading="lazy" src="' . $num . '" class="img-fluid" alt="' . $num . '">
-            </a>
-            ';
+              echo '
+              <a href="' . $num . '" data-lightbox="gallery" id="images" class="d-flex justify-content-center align-items-center" onclick="window.ga(\'send\', \'event\', \''.$name.' - Image - Projects\', \'click\')">
+                <img loading="lazy" src="' . $num . '" class="img-fluid" alt="' . $num . '">
+              </a>
+              ';
+            }
           }
-        }
         ?>
       </div>
     </div>
@@ -139,23 +143,24 @@ function getImages($directoryToLoad) {
     <div class="row g-mt-30">
       <div class="col-12 d-flex justify-content-center flex-wrap image-container">
         <?php
-        $directory = 'static/assets/img/tree_work/';
+          $directory = 'static/assets/img/tree_work/';
+          $name = 'Tree Work';
 
-        $images = getImages($directory);
+          $images = getImages($directory);
 
-        if (!is_array($images)) {
-          echo "No images";
-        } else {
-          for ($i = 1; $i < count($images); $i++) {
-            $num = $images[$i];
+          if (!is_array($images)) {
+            echo "No images";
+          } else {
+            for ($i = 1; $i < count($images); $i++) {
+              $num = $images[$i];
 
-            echo '
-            <a href="' . $num . '" data-lightbox="gallery" id="images" class="d-flex justify-content-center align-items-center">
-              <img loading="lazy" src="' . $num . '" class="img-fluid" alt="' . $num . '">
-            </a>
-            ';
+              echo '
+              <a href="' . $num . '" data-lightbox="gallery" id="images" class="d-flex justify-content-center align-items-center" onclick="window.ga(\'send\', \'event\', \''.$name.' - Image - Projects\', \'click\')">
+                <img loading="lazy" src="' . $num . '" class="img-fluid" alt="' . $num . '">
+              </a>
+              ';
+            }
           }
-        }
         ?>
       </div>
     </div>
@@ -164,9 +169,7 @@ function getImages($directoryToLoad) {
 </section>
 
 <?php
-$add_scripts = "<script async src='js/lightbox.min.js'></script><script async src='js/lightbox-plus-jquery.min.js'></script>
-<script>var el=document.getElementById('images');el.addEventListener('click',function(){ga.send('send','event','Image clicked - Projects','click');})
-</script>";
+  $add_scripts = "<script defer src='js/lightbox.min.js'></script><script defer src='js/lightbox-plus-jquery.min.js'></script>";
 
-include('./includes/footer.php');
+  include_once('./includes/footer.php');
 ?>

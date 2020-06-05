@@ -15,7 +15,7 @@ require('./includes/head.php');
 					<h1 class="h-white">Millers Pro Landscape Services on <br>Martha's Vineyard.</h1>
 					<p class="sub-h">The joy is built in</p>
 				</div>
-				<a href="#quote" class="btn btn-green btn-lg">Get A Quote<i class="fa fa-angle-right g-pl-10"></i></a>
+				<a href="#quote" class="btn btn-green btn-lg" onclick="window.ga('send', 'event', 'Index - Get a quote', 'click')">Get A Quote<i class="fa fa-angle-right g-pl-10"></i></a>
 			</div>
 		</div>
 	</div>
@@ -31,7 +31,8 @@ require('./includes/head.php');
 		<br>
 		<section class="col-md-4 col-sm-6 col-xs-12 pb-30">
 			<div class="ph-20 feature-box text-center">
-				<a href="https://millersprolandscape.com/landscape_construction"><img class="icon" src="img/landscape-icon.png" alt="icon">
+				<a href="/landscape_construction" onclick="window.ga('send', 'event', 'Landscape Icon - Index', 'click')">
+					<img class="icon" src="img/landscape-icon.png" alt="icon">
 					<div class="services-list g-pt-30">
 						<h2 class="doble text-left">Landscape <br> Construction</h2>
 					</div>
@@ -40,7 +41,8 @@ require('./includes/head.php');
 		</section>
 		<section class="col-md-4 col-sm-6 col-xs-12 pb-30">
 			<div class="ph-20 feature-box text-center">
-				<a href="https://millersprolandscape.com/lawn_care"><img class="icon" src="img/lawn-icon.png" alt="icon">
+				<a href="/lawn_care" onclick="window.ga('send', 'event', 'Lawn Care Icon - Index', 'click')">
+					<img class="icon" src="img/lawn-icon.png" alt="icon">
 					<div class="services-list pt-55">
 						<h2 class="text-left">Lawn Care</h2>
 					</div>
@@ -52,7 +54,8 @@ require('./includes/head.php');
 
 		<section class="col-md-4 col-sm-6 col-xs-12 pb-30">
 			<div class="ph-20 feature-box text-center">
-				<a href="https://millersprolandscape.com/tree_work"><img class="icon" src="img/tree-icon.png" alt="icon">
+				<a href="/tree_work" onclick="window.ga('send', 'event', 'Tree Work Icon - Index', 'click')">
+					<img class="icon" src="img/tree-icon.png" alt="icon">
 					<div class="services-list pt-55">
 						<h2 class="text-left">Tree Work</h2>
 					</div>
@@ -64,7 +67,8 @@ require('./includes/head.php');
 
 		<section class="col-md-4 col-sm-6 col-xs-12 pb-30">
 			<div class="ph-20 feature-box text-center">
-				<a href="https://millersprolandscape.com/masonry"><img class="icon" src="img/masonry-icon.png" alt="icon">
+				<a href="/masonry" onclick="window.ga('send', 'event', 'Masonry Icon - Index', 'click')">
+					<img class="icon" src="img/masonry-icon.png" alt="icon">
 					<div class="services-list pt-55">
 						<h2 class="text-left">Masonry</h2>
 					</div>
@@ -73,7 +77,8 @@ require('./includes/head.php');
 		</section>
 		<section class="col-md-4 col-sm-6 col-xs-12 pb-30">
 			<div class="ph-20 feature-box text-center">
-				<a href="https://millersprolandscape.com/irrigation"><img class="icon" src="img/irrigation-icon.png" alt="icon">
+				<a href="/irrigation" onclick="window.ga('send', 'event', 'Irrigation Icon - Index', 'click')">
+					<img class="icon" src="img/irrigation-icon.png" alt="icon">
 					<div class="services-list pt-55">
 						<h2 class="text-left">Irrigation</h2>
 					</div>
@@ -82,7 +87,8 @@ require('./includes/head.php');
 		</section>
 		<section class="col-md-4 col-sm-6 col-xs-12 pb-30">
 			<div class="ph-20 feature-box text-center">
-				<a href="https://millersprolandscape.com/snow_removal"><img class="icon" src="img/snow-icon.png" alt="icon">
+				<a href="/snow_removal" onclick="window.ga('send', 'event', 'Snow Removal Icon - Index', 'click')">
+					<img class="icon" src="img/snow-icon.png" alt="icon">
 					<div class="services-list g-pt-30">
 						<h2 class="text-left">Snow<br>Removal</h2>
 					</div>
@@ -91,7 +97,8 @@ require('./includes/head.php');
 		</section>
 		<section class="col-md-4 col-sm-6 col-xs-12 pb-30">
 			<div class="ph-20 feature-box text-center">
-				<a href="https://millersprolandscape.com/foundation"><img class="icon" src="img/foundation.png" alt="icon">
+				<a href="/foundation" onclick="window.ga('send', 'event', 'Foundation Icon - Index', 'click')">
+					<img class="icon" src="img/foundation.png" alt="icon">
 					<div class="services-list pt-55">
 						<h2 class="doble text-left">Foundation</h2>
 					</div>
@@ -100,7 +107,8 @@ require('./includes/head.php');
 		</section>
 		<section class="col-md-4 col-sm-6 col-xs-12 pb-30">
 			<div class="ph-20 feature-box text-center">
-				<a href="https://millersprolandscape.com/maintenance"><img class="icon" src="img/maintenance.png" alt="icon">
+				<a href="/maintenance" onclick="window.ga('send', 'event', 'Maintenance Icon - Index', 'click')">
+					<img class="icon" src="img/maintenance.png" alt="icon">
 					<div class="services-list pt-55">
 						<h2 class="text-left">Maintenance</h2>
 					</div>
@@ -110,7 +118,8 @@ require('./includes/head.php');
 
 		<section class="col-md-4 col-sm-6 col-xs-12 pb-30">
 			<div class="ph-20 feature-box text-center">
-				<a href="https://millersprolandscape.com/pool_instollation"><img class="icon" src="img/pool-instolation.png" alt="icon">
+				<a href="/pool_installation" onclick="window.ga('send', 'event', 'Pool Installaton Icon - Index', 'click')">
+					<img class="icon" src="img/pool-installation.png" alt="icon">
 					<div class="services-list g-pt-30">
 						<h2 class="text-left doble">Pool<br>Installation</h2>
 					</div>
@@ -185,7 +194,7 @@ require('./includes/head.php');
 								</div>
 							</section>
 						</fieldset>
-						<button type="submit" value="Send" class="form-button">Request a Call Back <img src="img/arrow.png"></button>
+						<button type="submit" value="Send" class="form-button" onclick="window.ga('send', 'event', 'Request a Callback - Topbar', 'click')">Request a Call Back <img src="img/arrow.png"></button>
 					</form>
 				</div>
 			</div>
@@ -195,7 +204,7 @@ require('./includes/head.php');
 					<div class="testimonials-ditaled">
 						<p class="testimonials-name text-right">- SUSAN S</p>
 						<div class="testimonials-link-wrap text-right">
-							<a href="https://millersprolandscape.com/testimonials" class="testimonials-link">More Testimonials...</a>
+							<a href="/testimonials" class="testimonials-link" onclick="window.ga('send', 'event', 'More Testimonials - Index', 'click')">More Testimonials...</a>
 						</div>
 					</div>
 				</div>

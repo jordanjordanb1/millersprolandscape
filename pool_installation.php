@@ -1,7 +1,7 @@
 <?php
-$page = 'pool_installation';
-$page_name = 'Pool Installation';
-require('./includes/head.php');
+  $page = 'pool_installation';
+  $page_name = 'Pool Installation';
+  include_once('./includes/head.php');
 ?>
 
 <style>
@@ -32,7 +32,7 @@ require('./includes/head.php');
         <div class="clearfix g-mt-40"></div>
       </div>
       <!-- side bar start -->
-      <?php include('./includes/side_bar.php'); ?>
+      <?php include_once('./includes/side_bar.php'); ?>
       <!-- side bar end -->
     </div>
   </div>
@@ -48,29 +48,29 @@ require('./includes/head.php');
     <div class="row">
             <div class="col-12 d-flex justify-content-center flex-wrap image-container">
                 <?php
-                    $directory = 'img/pool/';
+                  $directory = 'static/assets/img/pool/';
 
-                    $images = glob($directory . "*.jpg");
+                  $images = glob($directory . "*.*");
 
-                    if (!is_array($images)) {
-                        echo "No images";
-                    } else {
-                        for ($i = 1; $i < count($images); $i++) {
-                            $num = $images[$i];
+                  if (!is_array($images)) {
+                    echo "No images";
+                  } else {
+                    for ($i = 1; $i < count($images); $i++) {
+                      $num = $images[$i];
 
-                            echo '
-                                <a href="' . $num . '" data-lightbox="gallery" class="d-flex justify-content-center align-items-center">
-                                <img loading="lazy" src="' . $num . '" class="img-fluid" alt="' . $num . '">
-                                </a>
-                            ';
-                        }
+                      echo '
+                        <a href="' . $num . '" data-lightbox="gallery" class="d-flex justify-content-center align-items-center" onclick="window.ga(\'send\', \'event\', \'Image - Millers Pools\', \'click\')">
+                        <img loading="lazy" src="' . $num . '" class="img-fluid" alt="'.$directory.'' . $num . '">
+                        </a>
+                      ';
                     }
+                  }
                 ?>
             </div>
     </div>
   </div>
 </section>
 <?php 
-$add_scripts = '<script async src="js/lightbox.min.js"></script><script async src="js/lightbox-plus-jquery.min.js"></script>';
-include('./includes/footer.php'); 
+  $add_scripts = '<script defer src="js/lightbox.min.js"></script><script defer src="js/lightbox-plus-jquery.min.js"></script>';
+  include_once('./includes/footer.php'); 
 ?>
