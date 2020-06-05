@@ -82,7 +82,7 @@
                     >
                         <img
                             lazy="load"
-                            src="static/assets/img/foundation/Millers_professionals_foundation_1.jpg"
+                            src="static/assets/img/foundation/Millers_professionals_foundation_1.png"
                             class="img-fluid"
                             alt="millers foundation"
                         />
@@ -96,7 +96,7 @@
                     >
                         <img
                             lazy="load"
-                            src="static/assets/img/foundation/Millers_professionals_foundation_2.jpg"
+                            src="static/assets/img/foundation/Millers_professionals_foundation_2.png"
                             class="img-fluid"
                             alt="millers foundation"
                         />
@@ -110,7 +110,7 @@
                     >
                         <img
                             lazy="load"
-                            src="static/assets/img/foundation/Millers_professionals_foundation_3.jpg"
+                            src="static/assets/img/foundation/Millers_professionals_foundation_3.png"
                             class="img-fluid"
                             alt="millers foundation"
                         />
@@ -124,7 +124,7 @@
                     >
                         <img
                             lazy="load"
-                            src="static/assets/img/foundation/Millers_professionals_foundation_4.jpg"
+                            src="static/assets/img/foundation/Millers_professionals_foundation_4.png"
                             class="img-fluid"
                             alt="millers foundation"
                         />
@@ -141,7 +141,7 @@
                     >
                         <img
                             lazy="load"
-                            src="static/assets/img/foundation/Millers_professionals_foundation_5.jpg"
+                            src="static/assets/img/foundation/Millers_professionals_foundation_5.png"
                             class="img-fluid"
                             alt="millers foundation"
                         />
@@ -155,7 +155,7 @@
                     >
                         <img
                             lazy="load"
-                            src="static/assets/img/foundation/Millers_professionals_foundation_6.jpg"
+                            src="static/assets/img/foundation/Millers_professionals_foundation_6.png"
                             class="img-fluid"
                             alt="millers foundation"
                         />
@@ -169,7 +169,7 @@
                     >
                         <img
                             lazy="load"
-                            src="static/assets/img/foundation/Millers_professionals_foundation_7.jpg"
+                            src="static/assets/img/foundation/Millers_professionals_foundation_7.png"
                             class="img-fluid"
                             alt="millers foundation"
                         />
@@ -183,7 +183,7 @@
                     >
                         <img
                             lazy="load"
-                            src="static/assets/img/foundation/Millers_professionals_foundation_8.jpg"
+                            src="static/assets/img/foundation/Millers_professionals_foundation_8.png"
                             class="img-fluid"
                             alt="millers foundation"
                         />
