@@ -68,7 +68,7 @@
         </section>
     </div>
 </div>
-<div class="container-fluid greay">
+<div class="container-fluid greay pb-5">
     <div class="paragraph row-full">
         <div class="col-md-8 offset-md-2">
             <h1 class="text-center g-pt-80">Miller's Foundation</h1>
