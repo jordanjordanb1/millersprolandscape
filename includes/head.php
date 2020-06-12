@@ -81,6 +81,7 @@ $version = $_ENV['VERSION'];
 <body>
 
 <?php
+    include_once('facebook_chat.php');
     include_once('header.php');
     include_once('menu.php');
 ?>
