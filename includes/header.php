@@ -40,6 +40,16 @@
               <a
                 class="nav-link"
                 ref="noreferrer"
+                onclick="window.ga('send', 'event', 'Instagram Link - Topbar', 'click')"
+                href="https://www.facebook.com/Landscapingonthevineyard/"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                ref="noreferrer"
                 onclick="window.ga('send', 'event', 'YouTube Link - Topbar', 'click')"
                 href="https://www.youtube.com/channel/UC9ugiyhFYAyTIYBGCVgYrLA"
               >
