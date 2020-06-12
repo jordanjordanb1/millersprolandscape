@@ -5,15 +5,15 @@
             <img
                 loading="lazy"
                 src="static/assets/img/footer/fully-insured.svg"
-                alt="icon"
+                alt="We are fully insured"
                 class="icon-footer img-fluid"
             />
         </div>
         <div class="col-md-3 col-sm-6">
             <img
                 loading="lazy"
-                src="static/assets/img/footer/lifetime-warrenty.svg"
-                alt="icon"
+                src="static/assets/img/footer/lifetime-warranty.svg"
+                alt="We offer lifetime Warranty"
                 class="icon-footer img-fluid"
             />
         </div>
@@ -21,7 +21,7 @@
             <img
                 loading="lazy"
                 src="static/assets/img/footer/25-years-experience.svg"
-                alt="icon"
+                alt="We have 25 Years of Experience"
                 class="icon-footer img-fluid"
             />
         </div>
@@ -29,7 +29,7 @@
             <img
                 loading="lazy"
                 src="static/assets/img/footer/chamber-of-commerce.svg"
-                alt="icon"
+                alt="We are a member of the Chamber Of Commerce"
                 class="icon-footer img-fluid"
             />
         </div>
@@ -37,7 +37,7 @@
             <img
                 loading="lazy"
                 src="static/assets/img/footer/botv-winner.svg"
-                alt="icon"
+                alt="Winner of the Best of The Vineyard"
                 class="icon-footer img-fluid"
             />
         </div>
@@ -45,7 +45,7 @@
             <img
                 loading="lazy"
                 src="static/assets/img/footer/botv-2015.svg"
-                alt="icon"
+                alt="Winner of the Best of The Vineyard 2015"
                 class="icon-footer img-fluid"
             />
         </div>
@@ -53,7 +53,7 @@
             <img
                 loading="lazy"
                 src="static/assets/img/footer/botv-2016.svg"
-                alt="icon"
+                alt="Winner of the Best of The Vineyard 2016"
                 class="icon-footer img-fluid"
             />
         </div>
@@ -61,7 +61,7 @@
             <img
                 loading="lazy"
                 src="static/assets/img/footer/botv-2017.svg"
-                alt="icon"
+                alt="Winner of the Best of The Vineyard 2017"
                 class="icon-footer img-fluid"
             />
         </div>
@@ -77,14 +77,14 @@
                     width="80"
                     height="70"
                     src="static/assets/img/logo/millersprolandscape.svg"
-                    alt="Millers Professionals Co Logo"
+                    alt="Millers Pro Landscape Logo"
                 />
             </div>
             <div class="col-md-12 col-lg" style="text-align:center;">
                 <p class="p-footer">
                     ©
                     <?php echo Date('Y'); ?>
-                    Millers Pro Landscape All Rights Reserved.
+                    Millers Pro Landscape | All Rights Reserved.
                 </p>
             </div>
             <div class="col-md-12 col-lg" style="text-align:center;">

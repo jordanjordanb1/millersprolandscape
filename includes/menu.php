@@ -86,7 +86,7 @@
                     width="120"
                     height="100"
                     src="static/assets/img/logo/millersprolandscape.svg"
-                    alt="Millers Professionals Co Logo"
+                    alt="Millers Pro Landscape's Logo"
                 />
             </a>
             <button

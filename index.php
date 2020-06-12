@@ -32,7 +32,7 @@ require('./includes/head.php');
 		<section class="col-md-4 col-sm-6 col-xs-12 pb-30">
 			<div class="ph-20 feature-box text-center">
 				<a href="/landscape_construction" onclick="window.ga('send', 'event', 'Landscape Icon - Index', 'click')">
-					<img class="icon" src="img/landscape-icon.png" alt="icon">
+					<img class="icon" src="static/assets/img/index/landscape-icon.svg" loading="lazy" alt="We do landscape construction">
 					<div class="services-list g-pt-30">
 						<h2 class="doble text-left">Landscape <br> Construction</h2>
 					</div>
@@ -42,7 +42,7 @@ require('./includes/head.php');
 		<section class="col-md-4 col-sm-6 col-xs-12 pb-30">
 			<div class="ph-20 feature-box text-center">
 				<a href="/lawn_care" onclick="window.ga('send', 'event', 'Lawn Care Icon - Index', 'click')">
-					<img class="icon" src="img/lawn-icon.png" alt="icon">
+					<img class="icon" src="static/assets/img/index/lawn-icon.svg" loading="lazy" alt="We do lawn care">
 					<div class="services-list pt-55">
 						<h2 class="text-left">Lawn Care</h2>
 					</div>
@@ -55,7 +55,7 @@ require('./includes/head.php');
 		<section class="col-md-4 col-sm-6 col-xs-12 pb-30">
 			<div class="ph-20 feature-box text-center">
 				<a href="/tree_work" onclick="window.ga('send', 'event', 'Tree Work Icon - Index', 'click')">
-					<img class="icon" src="img/tree-icon.png" alt="icon">
+					<img class="icon" src="static/assets/img/index/tree-icon.svg" loading="lazy" alt="We do tree work">
 					<div class="services-list pt-55">
 						<h2 class="text-left">Tree Work</h2>
 					</div>
@@ -68,7 +68,7 @@ require('./includes/head.php');
 		<section class="col-md-4 col-sm-6 col-xs-12 pb-30">
 			<div class="ph-20 feature-box text-center">
 				<a href="/masonry" onclick="window.ga('send', 'event', 'Masonry Icon - Index', 'click')">
-					<img class="icon" src="img/masonry-icon.png" alt="icon">
+					<img class="icon" src="static/assets/img/index/masonry-icon.svg" loading="lazy" alt="We do masonry">
 					<div class="services-list pt-55">
 						<h2 class="text-left">Masonry</h2>
 					</div>
@@ -78,7 +78,7 @@ require('./includes/head.php');
 		<section class="col-md-4 col-sm-6 col-xs-12 pb-30">
 			<div class="ph-20 feature-box text-center">
 				<a href="/irrigation" onclick="window.ga('send', 'event', 'Irrigation Icon - Index', 'click')">
-					<img class="icon" src="img/irrigation-icon.png" alt="icon">
+					<img class="icon" src="static/assets/img/index/irrigation-icon.svg" loading="lazy" alt="We do irrigation">
 					<div class="services-list pt-55">
 						<h2 class="text-left">Irrigation</h2>
 					</div>
@@ -88,7 +88,7 @@ require('./includes/head.php');
 		<section class="col-md-4 col-sm-6 col-xs-12 pb-30">
 			<div class="ph-20 feature-box text-center">
 				<a href="/snow_removal" onclick="window.ga('send', 'event', 'Snow Removal Icon - Index', 'click')">
-					<img class="icon" src="img/snow-icon.png" alt="icon">
+					<img class="icon" src="static/assets/img/index/snow-icon.svg" loading="lazy" alt="We do snow removal">
 					<div class="services-list g-pt-30">
 						<h2 class="text-left">Snow<br>Removal</h2>
 					</div>
@@ -98,7 +98,7 @@ require('./includes/head.php');
 		<section class="col-md-4 col-sm-6 col-xs-12 pb-30">
 			<div class="ph-20 feature-box text-center">
 				<a href="/foundation" onclick="window.ga('send', 'event', 'Foundation Icon - Index', 'click')">
-					<img class="icon" src="img/foundation.png" alt="icon">
+					<img class="icon" src="static/assets/img/index/foundation-icon.svg" loading="lazy" alt="We do foundations">
 					<div class="services-list pt-55">
 						<h2 class="doble text-left">Foundation</h2>
 					</div>
@@ -108,7 +108,7 @@ require('./includes/head.php');
 		<section class="col-md-4 col-sm-6 col-xs-12 pb-30">
 			<div class="ph-20 feature-box text-center">
 				<a href="/maintenance" onclick="window.ga('send', 'event', 'Maintenance Icon - Index', 'click')">
-					<img class="icon" src="img/maintenance.png" alt="icon">
+					<img class="icon"src="static/assets/img/index/maintenance-icon.svg" loading="lazy" alt="We do landscape maintenance">
 					<div class="services-list pt-55">
 						<h2 class="text-left">Maintenance</h2>
 					</div>
@@ -119,7 +119,7 @@ require('./includes/head.php');
 		<section class="col-md-4 col-sm-6 col-xs-12 pb-30">
 			<div class="ph-20 feature-box text-center">
 				<a href="/pool_installation" onclick="window.ga('send', 'event', 'Pool Installaton Icon - Index', 'click')">
-					<img class="icon" src="img/pool-installation.png" alt="icon">
+					<img class="icon" src="static/assets/img/index/pool-installation-icon.svg" loading="lazy" alt="We do pool installations">
 					<div class="services-list g-pt-30">
 						<h2 class="text-left doble">Pool<br>Installation</h2>
 					</div>
