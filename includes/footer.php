@@ -4,7 +4,7 @@
         <div class="col-md-3 col-sm-6">
             <img
                 loading="lazy"
-                src="img/icon-1.png"
+                src="static/assets/img/footer/fully-insured.svg"
                 alt="icon"
                 class="icon-footer img-fluid"
             />
@@ -12,7 +12,7 @@
         <div class="col-md-3 col-sm-6">
             <img
                 loading="lazy"
-                src="img/icon-2.png"
+                src="static/assets/img/footer/lifetime-warrenty.svg"
                 alt="icon"
                 class="icon-footer img-fluid"
             />
@@ -20,7 +20,7 @@
         <div class="col-md-3 col-sm-6">
             <img
                 loading="lazy"
-                src="img/icon-3.png"
+                src="static/assets/img/footer/25-years-experience.svg"
                 alt="icon"
                 class="icon-footer img-fluid"
             />
@@ -28,7 +28,7 @@
         <div class="col-md-3 col-sm-6">
             <img
                 loading="lazy"
-                src="img/icon-4.png"
+                src="static/assets/img/footer/chamber-of-commerce.svg"
                 alt="icon"
                 class="icon-footer img-fluid"
             />
@@ -36,7 +36,7 @@
         <div class="col-md-3 col-sm-6">
             <img
                 loading="lazy"
-                src="img/icon-5.png"
+                src="static/assets/img/footer/botv-winner.svg"
                 alt="icon"
                 class="icon-footer img-fluid"
             />
@@ -44,7 +44,7 @@
         <div class="col-md-3 col-sm-6">
             <img
                 loading="lazy"
-                src="img/icon-6.png"
+                src="static/assets/img/footer/botv-2015.svg"
                 alt="icon"
                 class="icon-footer img-fluid"
             />
@@ -52,7 +52,15 @@
         <div class="col-md-3 col-sm-6">
             <img
                 loading="lazy"
-                src="img/icon-7.png"
+                src="static/assets/img/footer/botv-2016.svg"
+                alt="icon"
+                class="icon-footer img-fluid"
+            />
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <img
+                loading="lazy"
+                src="static/assets/img/footer/botv-2017.svg"
                 alt="icon"
                 class="icon-footer img-fluid"
             />

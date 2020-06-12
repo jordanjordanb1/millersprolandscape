@@ -140,7 +140,7 @@ require('./includes/head.php');
 </div>
 <div class="clearfix"></div>
 <div class="greay">
-	<div class="container greay" id="quote">
+	<div class="container greay pb-5" id="quote">
 		<div class="row">
 			<div class="col-md-6 col-sm-12">
 				<div class="main-form g-mt-60">
