@@ -1,3 +1,11 @@
+<style>
+  .nav-link i {
+    position: relative;
+    top: 2px;
+    vertical-align: bottom;
+  }
+</style>
+
 <div class="header-top">
   <div class="container">
     <div class="row">
@@ -12,8 +20,7 @@
                 id="email"
                 href="mailto:millersprolandscape@gmail.com"
               >
-                <i class="far fa-envelope-open pr-2"></i
-                >millersprolandscape@gmail.com
+                <i class="far fa-envelope"></i>
               </a>
             </li>
             <li class="nav-item">
@@ -24,6 +31,16 @@
                 href="https://g.page/MillersProLandscape?gm"
               >
                 <i class="fab fa-google"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                ref="noreferrer"
+                onclick="window.ga('send', 'event', 'Facebook Messenger Link - Topbar', 'click')"
+                href="//m.me/Landscapingonthevineyard"
+              >
+                <i class="fab fa-facebook-messenger"></i>
               </a>
             </li>
             <li class="nav-item">
@@ -56,11 +73,18 @@
                 <i class="fab fa-youtube" aria-hidden="true"></i>
               </a>
             </li>
-            <li class="nav-item">
+            <li
+              class="nav-item ml-2"
+              style="
+                background-color: #306e23;
+                font-family: 'Bebas Neue Book';
+                font-size: 23px;
+              "
+            >
               <a
                 class="nav-link disabled mt-1"
+                style="color: #fff;"
                 onclick="window.ga('send', 'event', 'Phone - Topbar', 'click')"
-                id="green-btn-phone"
                 href="tel:15086935428"
                 >+1 508 693 5428</a
               >
