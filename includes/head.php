@@ -3,6 +3,8 @@ include_once(__DIR__.'/../vendor/autoload.php');
 
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__.'/../');
 $dotenv->load();
+
+$version = $_ENV['VERSION'];
 ?>
 
 <!DOCTYPE html>
@@ -55,7 +57,7 @@ $dotenv->load();
     <!-- Font Awesome CSS -->
     <link href="css/lightbox.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css?v=<? echo md5($version) ?>" rel="stylesheet">
 
     <link rel="prerender" href="https://millersprolandscape.com/contact" />
     <link rel="prerender" href="https://millersprolandscape.com/pool_installation" />
