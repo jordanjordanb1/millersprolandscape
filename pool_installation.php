@@ -60,7 +60,7 @@
 
                       echo '
                         <a href="' . $num . '" data-lightbox="gallery" class="d-flex justify-content-center align-items-center" onclick="window.ga(\'send\', \'event\', \'Image - Millers Pools\', \'click\')">
-                        <img loading="lazy" src="' . $num . '" class="img-fluid" alt="'.$directory.'' . $num . '">
+                        <img loading="lazy" src="' . $num . '" class="img-fluid" alt="A picture of pool installation or pool work">
                         </a>
                       ';
                     }
