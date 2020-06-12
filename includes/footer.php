@@ -60,48 +60,43 @@
     </div>
 </div>
 
-<footer>
+<footer class="p-3" style="height:auto;">
     <div class="container">
         <div class="row justify-content-between">
-            <div class="col-md-6 col-xs-12">
+            <div class="col-md-12 col-lg-3">            
                 <img
-                    loading="lazy"
-                    src="img/logo-footer.png"
-                    class="img-footer"
+                    style="display:block;margin:0 auto;"
+                    width="80"
+                    height="70"
+                    src="static/assets/img/logo/millersprolandscape.svg"
+                    alt="Millers Professionals Co Logo"
                 />
+            </div>
+            <div class="col-md-12 col-lg" style="text-align:center;">
                 <p class="p-footer">
                     ©
                     <?php echo Date('Y'); ?>
                     Millers Pro Landscape All Rights Reserved.
                 </p>
             </div>
-            <div class="col-md-6 col-xs-12">
-                <span class="span-footer"
-                    >Questions?
-                    <p>
+            <div class="col-md-12 col-lg" style="text-align:center;">
+                <span class="span-footer"  style="display:block;width:100%;">
+                    <p style="display:block;width:100%;text-align:center;">
+                        Questions?
                         <a
                             href="tel:15086935428"
                             onclick="window.ga('send', 'event', 'Phone - Footer', 'click')"
-                            >+1 508 693 5428</a
                         >
-                    </p></span
-                >
+                            +1 508 693 5428
+                        </a>
+                    </p>
+                </span>
             </div>
-        </div>
+        </>
     </div>
 </footer>
-<script defer src="js/jquery.min.js"></script>
-<script defer src="js/popper.min.js"></script>
-<script defer src="js/bootstrap.min.js"></script>
-<script
-    defer
-    src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"
-    integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I="
-    crossorigin="anonymous"
-></script>
 
 <?php echo $add_scripts ?>
-
 
 </body>
 </html>

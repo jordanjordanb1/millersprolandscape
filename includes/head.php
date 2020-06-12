@@ -13,7 +13,7 @@ $version = $_ENV['VERSION'];
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name"robots" content="index,follow" />
 
     <meta name="theme-color" content="#306e23">
@@ -66,6 +66,16 @@ $version = $_ENV['VERSION'];
     <link rel="canonical" href="https://millersprolandscape.com/<?php echo $page; ?>" />
 
     <style>body, html {scroll-behavior:smooth;}</style>
+
+    <script defer src="js/jquery.min.js"></script>
+    <script defer src="js/popper.min.js"></script>
+    <script defer src="js/bootstrap.min.js"></script>
+    <script
+        defer
+        src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"
+        integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I="
+        crossorigin="anonymous"
+    ></script>
 </head>
 
 <body>

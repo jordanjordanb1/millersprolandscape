@@ -3,6 +3,23 @@
         margin: 0 10px;
     }
 
+    .navbar-brand {
+        -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1;
+    }
+
+    .navbar-brand img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .navbar-collapse {
+        -webkit-box-flex: 0;
+            -ms-flex-positive: 0;
+                flex-grow: 0
+    }
+
     @media screen and (max-width: 1210px) {
         .nav-container {
             max-width: 100vw;
@@ -11,7 +28,7 @@
 
     @media screen and (max-width: 1050px) {
         .nav-link {
-            font-size: 18px;
+            font-size: 21px;
         }
 
         .nav-seperator {
@@ -21,13 +38,13 @@
 
     @media screen and (max-width: 900px) {
         .nav-link {
-            font-size: 16px;
+            font-size: 19px;
         }
     }
 
     @media screen and (max-width: 840px) {
         .nav-link {
-            font-size: 15px;
+            font-size: 17px;
         }
     }
 
@@ -38,6 +55,11 @@
     }
 
     @media screen and (max-width: 820px) {
+        .navbar-brand img {
+            display: block;
+            margin: 0;
+        }
+
         .nav-link {
             padding-left: 0.2rem;
             padding-right: 0.2rem;
@@ -61,7 +83,9 @@
                 onclick="window.ga('send', 'event', 'Logo - Navbar', 'click')"
             >
                 <img
-                    src="img/millersprofessionalscologo.png"
+                    width="120"
+                    height="100"
+                    src="static/assets/img/logo/millersprolandscape.svg"
                     alt="Millers Professionals Co Logo"
                 />
             </a>
