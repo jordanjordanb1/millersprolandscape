@@ -74,6 +74,19 @@
     }
 </style>
 
+<? 
+function checkUrl($request) {
+    $current = $_SERVER['REQUEST_URI']; 
+
+    if (in_array($current, $request)) {
+        return true;
+    }
+
+    return false;
+}
+
+?>
+
 <div class="page-wrapper grey">
     <div class="container nav-container">
         <nav class="navbar navbar-expand-md navbar-light">
@@ -105,20 +118,20 @@
                 id="navbarNavDropdown"
             >
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
+                    <li class="nav-item <? if (checkUrl(['/', 'index', 'index.php'])) echo 'active' ?>">
                         <a
                             class="nav-link"
                             href="/"
                             onclick="window.ga('send', 'event', 'Home - Navbar', 'click')"
-                            >Home <span class="sr-only">(current)</span></a
+                            >Home<? if (checkUrl(['/', '/index', '/index.php'])) echo ` <span class="sr-only">(current)</span>` ?></a
                         >
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item <? if (checkUrl(['/about', '/about.php'])) echo 'active' ?>">
                         <a
                             class="nav-link"
                             href="/about"
                             onclick="window.ga('send', 'event', 'About - Navbar', 'click')"
-                            >About</a
+                            >About<? if (checkUrl(['/about', '/about.php'])) echo ` <span class="sr-only">(current)</span>` ?></a
                         >
                     </li>
                     <li class="nav-item dropdown">
@@ -138,95 +151,95 @@
                             aria-labelledby="navbarDropdownMenuLink"
                         >
                             <a
-                                class="dropdown-item"
+                                class="dropdown-item <? if (checkUrl(['/lawn_care', '/lawn_care.php'])) echo 'active' ?>"
                                 href="/lawn_care"
                                 onclick="window.ga('send', 'event', 'Lawn Care - Navbar', 'click')"
-                                >Lawn Care</a
+                                >Lawn Care<? if (checkUrl(['/lawn_care', '/lawn_care.php'])) echo ` <span class="sr-only">(current)</span>` ?></a
                             >
                             <a
-                                class="dropdown-item"
+                                class="dropdown-item <? if (checkUrl(['/tree_work', '/tree_work.php'])) echo 'active' ?>"
                                 href="/tree_work"
                                 onclick="window.ga('send', 'event', 'Tree Work - Navbar', 'click')"
-                                >Tree Work</a
+                                >Tree Work<? if (checkUrl(['/tree_work', '/tree_work.php'])) echo ` <span class="sr-only">(current)</span>` ?></a
                             >
                             <a
-                                class="dropdown-item"
+                                class="dropdown-item <? if (checkUrl(['/masonry', '/masonry.php'])) echo 'active' ?>"
                                 href="/masonry"
                                 onclick="window.ga('send', 'event', 'Masonry - Navbar', 'click')"
-                                >Masonry</a
+                                >Masonry<? if (checkUrl(['/masonry', '/masonry.php'])) echo ` <span class="sr-only">(current)</span>` ?></a
                             >
                             <a
-                                class="dropdown-item"
+                                class="dropdown-item <? if (checkUrl(['/irrigation', '/irrigation.php'])) echo 'active' ?>"
                                 href="/irrigation"
                                 onclick="window.ga('send', 'event', 'Irrigation - Navbar', 'click')"
-                                >Irrigation Systems</a
+                                >Irrigation Systems<? if (checkUrl(['/irrigation', '/irrigation.php'])) echo ` <span class="sr-only">(current)</span>` ?></a
                             >
                             <a
-                                class="dropdown-item"
+                                class="dropdown-item <? if (checkUrl(['/landscape_construction', '/landscape_construction.php'])) echo 'active' ?>"
                                 href="/landscape_construction"
                                 onclick="window.ga('send', 'event', 'Landscape Construction - Navbar', 'click')"
-                                >Landscape Construction</a
+                                >Landscape Construction<? if (checkUrl(['/landscape_construction', '/landscape_construction.php'])) echo ` <span class="sr-only">(current)</span>` ?></a
                             >
                             <a
-                                class="dropdown-item"
+                                class="dropdown-item <? if (checkUrl(['/maintenance', '/maintenance.php'])) echo 'active' ?>"
                                 href="/maintenance"
                                 onclick="window.ga('send', 'event', 'Maintenance - Navbar', 'click')"
-                                >Maintenance</a
+                                >Maintenance<? if (checkUrl(['/maintenance', '/maintenance.php'])) echo ` <span class="sr-only">(current)</span>` ?></a
                             >
                             <a
-                                class="dropdown-item"
+                                class="dropdown-item <? if (checkUrl(['/foundation', '/foundation.php'])) echo 'active' ?>"
                                 href="/foundation"
                                 onclick="window.ga('send', 'event', 'Foundation - Navbar', 'click')"
-                                >Foundation</a
+                                >Foundation<? if (checkUrl(['/foundation', '/foundation.php'])) echo ` <span class="sr-only">(current)</span>` ?></a
                             >
                             <a
-                                class="dropdown-item"
+                                class="dropdown-item <? if (checkUrl(['/snow_removal', '/snow_removal.php'])) echo 'active' ?>"
                                 href="/snow_removal"
                                 onclick="window.ga('send', 'event', 'Snow Removal - Navbar', 'click')"
-                                >Snow Removal</a
+                                >Snow Removal<? if (checkUrl(['/snow_removal', '/snow_removal.php'])) echo ` <span class="sr-only">(current)</span>` ?></a
                             >
                             <a
-                                class="dropdown-item"
+                                class="dropdown-item <? if (checkUrl(['/excavation', '/excavation.php'])) echo 'active' ?>"
                                 href="/excavation"
                                 onclick="window.ga('send', 'event', 'Excavation - Navbar', 'click')"
-                                >Excavation</a
+                                >Excavation<? if (checkUrl(['/excavation', '/excavation.php'])) echo ` <span class="sr-only">(current)</span>` ?></a
                             >
                         </div>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item <? if (checkUrl(['/projects', '/projects.php'])) echo 'active' ?>">
                         <a
                             class="nav-link"
                             href="/projects"
                             onclick="window.ga('send', 'event', 'Projects - Navbar', 'click')"
-                            >Projects</a
+                            >Projects<? if (checkUrl(['/projects', '/projects.php'])) echo ` <span class="sr-only">(current)</span>` ?></a
                         >
                     </li>
 
-                    <li class="nav-item">
+                    <li class="nav-item <? if (checkUrl(['/testimonials', '/testimonials.php'])) echo 'active' ?>">
                         <a
                             class="nav-link"
                             href="/testimonials"
                             onclick="window.ga('send', 'event', 'Testimonials - Navbar', 'click')"
-                            >Testimonials</a
+                            >Testimonials<? if (checkUrl(['/testimonials', '/testimonials.php'])) echo ` <span class="sr-only">(current)</span>` ?></a
                         >
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item <? if (checkUrl(['/contact', '/contact.php'])) echo 'active' ?>">
                         <a
                             class="nav-link"
                             href="/contact"
                             onclick="window.ga('send', 'event', 'Contact - Navbar', 'click')"
-                            >Contact</a
+                            >Contact<? if (checkUrl(['/contact', '/contact.php'])) echo ` <span class="sr-only">(current)</span>` ?></a
                         >
                     </li>
                     <li class="nav-item nav-seperator">
                         <span class="nav-link">|</span>
                     </li>
-                    <li class="nav-item millers-pools">
+                    <li class="nav-item millers-pools <? if (checkUrl(['/pool_installation', '/pool_installation.php'])) echo 'active' ?>">
                         <a
                             class="nav-link"
                             href="/pool_installation"
                             onclick="window.ga('send', 'event', 'Millers Pools - Navbar', 'click')"
-                            >Millers Pools</a
+                            >Millers Pools<? if (checkUrl(['/pool_installation', '/pool_installation.php'])) echo ` <span class="sr-only">(current)</span>` ?></a
                         >
                     </li>
                 </ul>

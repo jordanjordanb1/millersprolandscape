@@ -58,7 +58,7 @@
                 class="nav-link"
                 ref="noreferrer"
                 onclick="window.ga('send', 'event', 'Instagram Link - Topbar', 'click')"
-                href="https://www.facebook.com/Landscapingonthevineyard/"
+                href="https://www.instagram.com/millersprolandscape/"
               >
                 <i class="fab fa-instagram"></i>
               </a>
