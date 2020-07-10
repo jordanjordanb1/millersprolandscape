@@ -4,6 +4,8 @@
   include_once('./includes/head.php');
 ?>
 
+<style>.fb-page span{display:block;margin:0 auto;}</style>
+
 <!-- menu end -->
 <div class="container-fluid bgimage img-responsive">
     <div class="row">
@@ -85,8 +87,14 @@
     </div>
 </div>
 
-<div class="mt-5"><br /></div>
-<div class="mt-5"><br /></div>
+<div class="container" style="margin-top: 200px;">
+    <div class="row">
+        <div class="col-12" style="flex:auto;width:100%;">
+            <div class="fb-page" style="width:auto;display:block;" data-href="https://www.facebook.com/Landscapingonthevineyard" data-tabs="timeline" data-width="500" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Landscapingonthevineyard" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Landscapingonthevineyard">Millers Pro. Landscape</a></blockquote></div>
+        </div>
+    </div>
+</div>
+
 <div class="mt-5"></div>
 
 <?php include_once('./includes/footer.php'); ?>

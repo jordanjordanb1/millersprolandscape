@@ -76,6 +76,8 @@ $version = $_ENV['VERSION'];
         integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I="
         crossorigin="anonymous"
     ></script>
+
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0" nonce="1YhIOyl2"></script>
 </head>
 
 <body>
