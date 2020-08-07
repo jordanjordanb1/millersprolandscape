@@ -234,12 +234,13 @@ function checkUrl($request) {
                     <li class="nav-item nav-seperator">
                         <span class="nav-link">|</span>
                     </li>
-                    <li class="nav-item millers-pools <? if (checkUrl(['/pool_installation', '/pool_installation.php'])) echo 'active' ?>">
+                    <li class="nav-item millers-pools">
                         <a
                             class="nav-link"
-                            href="/pool_installation"
+                            rel='noopener'
+                            href="https://millers-pools.com"
                             onclick="window.ga('send', 'event', 'Millers Pools - Navbar', 'click')"
-                            >Millers Pools<? if (checkUrl(['/pool_installation', '/pool_installation.php'])) echo ` <span class="sr-only">(current)</span>` ?></a
+                            >Millers Pools</a
                         >
                     </li>
                 </ul>
